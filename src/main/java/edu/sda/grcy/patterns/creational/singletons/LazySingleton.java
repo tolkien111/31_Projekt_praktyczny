@@ -1,7 +1,7 @@
 package edu.sda.grcy.patterns.creational.singletons;
 
 /**
- * Lazy bo nie inicjulemy obiektu od razu, czekamny na pierwsze "wołanie" o niego
+ * Lazy bo nie inicjujemy obiektu od razu, czekamny na pierwsze "wołanie" o niego
  * UWAGA!!! To powoduje że LazySingleton nie powinien być stosowany w aplikacjach wielowątkowych
  * bo 2 wątki równocześnie mogłyby wywołać getInstance i stworzyć 2 obiekty klasy
  */

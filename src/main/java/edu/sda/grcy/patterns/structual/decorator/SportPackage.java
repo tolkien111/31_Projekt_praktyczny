@@ -1,7 +1,4 @@
-package edu.sda.grcy.patterns.structual.facade;
-
-import edu.sda.grcy.patterns.structual.decorator.Car;
-import edu.sda.grcy.patterns.structual.decorator.CarExtras;
+package edu.sda.grcy.patterns.structual.decorator;
 
 public class SportPackage extends CarExtras {
     private boolean sportWheel;
@@ -16,7 +13,7 @@ public class SportPackage extends CarExtras {
     public void assemble() {
         super.assemble();
         System.out.println("Adding sporty features: ");
-        System.out.println("Adding sport seats : ");
+        System.out.println("Adding sport seats: ");
         addSportWheel();
     }
 

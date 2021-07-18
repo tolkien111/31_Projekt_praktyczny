@@ -11,7 +11,7 @@ public class FordMustang {
     }
 
     public String retriveCarInfo() {
-        return new StringBuilder("Ford Mustang: kolor")
+        return new StringBuilder("Ford Mustang: kolor ")
                 .append(mustangBase.getColor())
                 .append(", silnik: ")
                 .append(mustangBase.getEngine())

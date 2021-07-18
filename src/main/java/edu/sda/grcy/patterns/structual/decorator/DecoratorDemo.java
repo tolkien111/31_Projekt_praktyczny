@@ -1,7 +1,5 @@
 package edu.sda.grcy.patterns.structual.decorator;
 
-import edu.sda.grcy.patterns.structual.facade.SportPackage;
-
 public class DecoratorDemo {
     public static void main(String[] args) {
         Car basicCar = new BasicCar();

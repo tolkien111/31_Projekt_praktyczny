@@ -13,7 +13,7 @@ public class EagerSingleton {
      * - statyczne więc obiekt wspólny dla klasy
      */
 
-    public static final EagerSingleton INSTANCE = new EagerSingleton();
+    private static final EagerSingleton INSTANCE = new EagerSingleton();
 
     private String someSettings;
 
