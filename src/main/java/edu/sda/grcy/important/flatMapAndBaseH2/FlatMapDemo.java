@@ -1,4 +1,4 @@
-package edu.sda.grcy.important.flatMap;
+package edu.sda.grcy.important.flatMapAndBaseH2;
 
 import java.util.List;
 import java.util.Set;
@@ -6,15 +6,15 @@ import java.util.Set;
 public class FlatMapDemo {
     public static void main(String[] args) {
 
-        Pesel pesel1 = new Pesel("12345");
-        Pesel pesel2 = new Pesel("23244");
-        Pesel pesel3 = new Pesel("12221");
-        Pesel pesel4 = new Pesel("55555");
-        Pesel pesel5 = new Pesel("72355");
-        Pesel pesel6 = new Pesel("34567");
-        Pesel pesel7 = new Pesel("56783");
-        Pesel pesel8 = new Pesel("36583");
-        Pesel pesel9 = new Pesel("67889");
+        Pesel pesel1 = Pesel.createPesel("12345");
+        Pesel pesel2 = Pesel.createPesel("23244");
+        Pesel pesel3 = Pesel.createPesel("12221");
+        Pesel pesel4 = Pesel.createPesel("55555");
+        Pesel pesel5 = Pesel.createPesel("72355");
+        Pesel pesel6 = Pesel.createPesel("34567");
+        Pesel pesel7 = Pesel.createPesel("56783");
+        Pesel pesel8 = Pesel.createPesel("36583");
+        Pesel pesel9 = Pesel.createPesel("67889");
 
 
         List<Pesel> peselList = List.of(pesel1, pesel2, pesel3, pesel4, pesel5);
